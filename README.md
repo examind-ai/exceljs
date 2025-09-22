@@ -16,6 +16,14 @@ Reverse engineered from Excel spreadsheet files as a project.
 npm install exceljs
 ```
 
+# EXAMIND Publish
+
+- Make code changes
+- Build: `npm run build`
+- Test changes using `npm link`
+- Bump version in package.json
+- Publish: `npm publish --access public`
+
 # New Features!
 
 * Merged [fix: styles rendering in case when "numFmt" is present in conditional formatting rules (resolves #1814) #1815](https://github.com/exceljs/exceljs/pull/1815). <br/> Many thanks to [@andreykrupskii](https://github.com/andreykrupskii) for this contribution!
