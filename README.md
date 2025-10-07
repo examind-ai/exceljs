@@ -2,6 +2,8 @@
 
 This cloned repo is a temporary fix for this: https://github.com/exceljs/exceljs/issues/2972
 
+Demonstration of bug: https://github.com/examind-ai/exceljs-dynamicfilter-bug
+
 [![Build Status](https://github.com/exceljs/exceljs/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/exceljs/exceljs/actions/workflows/tests.yml)
 
 Read, manipulate and write spreadsheet data and styles to XLSX and JSON.
