@@ -1,8 +1,8 @@
 # ExcelJS
 
-This cloned repo is a temporary fix for this: https://github.com/exceljs/exceljs/issues/2972
+This cloned repo is a temporary fix for https://github.com/exceljs/exceljs/issues/2972: `FilterColumnXform` throws `Unexpected xml node in parseOpen` when a table column has a filter type it does not model (`dynamicFilter`, `top10`, `colorFilter`, `iconFilter`, `extLst`, ...). This fork ignores those nodes on read instead of throwing.
 
-Demonstration of bug: https://github.com/examind-ai/exceljs-dynamicfilter-bug
+Demonstration of the original `dynamicFilter` bug: https://github.com/examind-ai/exceljs-dynamicfilter-bug
 
 [![Build Status](https://github.com/exceljs/exceljs/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/exceljs/exceljs/actions/workflows/tests.yml)
 
